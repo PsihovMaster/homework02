@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>home work form</title>
+</head>
+<body><center>
+    <nav><br>
+        <tr>
+            <td>
+                <a href="index.html">Home</a>
+            </td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <td>
+                <a href="form.html">Form</a>
+            </td>
+        </tr>
+    </nav><br>
+    <form method="post" action="https://formspree.io/psihovtest@gmail.com">
+        <div class="form-group">
+            <label for="user-name">Name:</label>
+            <input id="user-name" type="text" placeholder="name" name="user-name" required>
+        </div>
+        <div class="form-group">
+            <label>
+                Email:
+                <input type="email" name="user-email" placeholder="email" required>
+            </label>
+        </div><br><br>
+        <div class="form-group">
+            <label>radio</label>
+            <br><div class="form-group">
+                <label>
+                    <input type="radio" name="user-1" value="1" required>
+                        1
+                </label>
+                <label>
+                    <input type="radio" name="user-2" value="2" required>
+                        2
+                </label>
+                <label>
+                    <input type="radio" name="user-3" value="3" required>
+                        3
+                </label>
+            </div><br><br>
+        </div>
+        <div>
+            <label>
+                123:
+                <select class="123" name="123">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </label>
+        </div><br><br>
+        <div>
+            <label>
+                box:<br>
+                <select name="box" multiple>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </label>
+        </div>
+        <div><br>
+            <p>abc</p>
+            <div>
+                <label>
+                    a:
+                    <input type="checkbox" name="a">
+                </label>
+                <label>
+                    b:
+                    <input type="checkbox" name="b">
+                </label>
+                <label>
+                    c:
+                    <input type="checkbox" name="c">
+                </label>
+                <label>
+                    d:
+                    <input type="checkbox" name="d">
+                </label>
+                <label>
+                    e:
+                    <input type="checkbox" name="e">
+                </label>
+            </div>
+        </div><br><br>
+        <div>
+            <label>
+                !
+                <input type="checkbox" name="user-agree">
+            </label>
+        </div><br>
+
+        <div class="form-group">
+            <input type="submit" value="тыц">
+            <input type="reset" value="нетыц">
+        </div><br>
+    </form>
+</body>
+</html>
